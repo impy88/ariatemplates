@@ -7,9 +7,3 @@ node_modules
 *.log
 *.tgz
 /src/aria/jsunit/robot-applet*
-
-/build/target/
-/src/aria/bootstrap.js
-/src/aria/bootstrap-node.js
-/src/aria/noderError/
-/src/aria/core/useragent/ua-parser.js

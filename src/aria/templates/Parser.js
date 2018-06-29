@@ -278,6 +278,8 @@ module.exports = Aria.classDefinition({
                 otherParams = [];
             }
             otherParams.push(this.positionToLineNumber(charIndex));
+            otherParams.push(charIndex);
+
             return this.logOrThrowError(msgId, otherParams, this.context, throwErrors);
         },
 
